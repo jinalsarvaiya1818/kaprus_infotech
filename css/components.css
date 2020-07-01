@@ -200,3 +200,11 @@ a.tooltip-content.tooltip-bottom,.tooltip-content.tooltip-bottom {
 .button:hover > i {
   background: rgba(0, 0, 0, 0.06) none repeat scroll 0 0;
 }
+.image-section-laptop{
+  background-image: url('../img/bio02.jpg');
+  background-size: cover;
+  /* background-position: 100% 100%; */
+  overflow: hidden;
+  height: 500px;
+  width: 100%;
+}
