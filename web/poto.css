@@ -1,0 +1,76 @@
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	
+}
+
+	
+	
+	body{
+		background-image: url(imgs/9.jpg);
+		background-repeat: none;
+		background-position: center;
+		background-size: contain;
+
+	}
+	.menu{
+	margin-left: 150px;
+	float: left;
+	width: 100%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li{
+    float:left;
+    width:200px;
+    height:40px;
+    background-color:black;
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size:20px; 
+
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover{
+	background-color: darkblue;
+}
+ul li ul li{
+	display: none;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+	main{
+		margin-left: 100px;
+		margin-right: 20px;
+		margin-top: 20px;
+
+	}
+	.mab{
+		float:left;
+		padding: 10px;
+
+	}
+	.mab img{
+		width: 20%;
+		height: 400px;
+		padding: 20px;
+	}
+		.mab img:hover{
+			cursor: pointer;
+			transform: scale(1.25,1.125);
+		}
+		
